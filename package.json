@@ -1,0 +1,21 @@
+{
+  "name": "mymoney",
+  "version": "1.0.0",
+  "description": "My Money Problem",
+  "main": "index.js",
+  "scripts": {
+    "start": "node js/geektrust.js",
+    "runWithInput1": "npm start --silent /Users/nikitathomas/Documents/myMoney/testInput/input1.txt",
+    "runWithInput2": "npm start --silent /Users/nikitathomas/Documents/myMoney/testInput/input2.txt",
+    "runWithInput3": "npm start --silent /Users/nikitathomas/Documents/myMoney/testInput/input3.txt",
+    "runWithInput4": "npm start --silent /Users/nikitathomas/Documents/myMoney/testInput/input4.txt",
+    "test": "mocha"
+  },
+  "author": "Nikita Thomas",
+  "license": "ISC",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^9.1.2",
+    "node-fetch": "^3.1.0"
+  }
+}
